@@ -11,7 +11,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
+  
 }
 
 .nav-links {
@@ -53,6 +53,7 @@ html, body {
     width: 100%;
     padding-left: 20px;
     gap: 10px;
+    align-items: flex-start;
     transition: all 0.3s ease;
   }
 
@@ -63,19 +64,25 @@ html, body {
   .hamburger {
     display: block;
     align-self: flex-end;   
-    margin-top: 10px;
+    margin: 0px;
     
   }
     .navbar {
         flex-direction: column;
-        align-items: flex-start;
-        padding: 10px 20px;
+        align-items: stretch;
+        padding: 15px 5vw;
     }
     .nav-button {
         padding: 12px;
         text-align: left;
         width: 100%;
         border-radius: 5px;
+    }
+    .navbar-top {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
     }
 }
 
@@ -95,4 +102,12 @@ html, body {
     padding: 8px 12px;
     font-size: 0.95rem;
   }
+}
+
+
+.navbar-top {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
