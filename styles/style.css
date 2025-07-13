@@ -11,6 +11,7 @@ html, body {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  flex-direction: row;
   
 }
 
@@ -61,7 +62,12 @@ html, body {
         align-items: stretch;
         padding: 15px 5vw;
     }
-    
+    .navbar-top {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+    width: 100%;
+  }
     .hamburger {
     display: block;
     line-height: 1;   
